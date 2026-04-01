@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nexora | Enterprise Solutions Global",
+  title: "TSG Inframedix",
   description: "Accelerating global innovation with enterprise-grade operational excellence.",
 };
 
