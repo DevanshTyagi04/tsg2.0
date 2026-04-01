@@ -44,7 +44,7 @@ export function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-[#0a0a0b] flex items-center justify-center">
       {/* 3D Environment Background */}
-      <div className="absolute inset-0 z-0 opacity-40 mix-blend-screen">
+      <div className="absolute inset-0 z-0 opacity-40 mix-blend-screen pointer-events-none">
         <Canvas camera={{ position: [0, 0, 5] }}>
           <ambientLight intensity={0.2} />
           <directionalLight position={[10, 10, 5]} intensity={1.5} color="#0A2540" />
@@ -106,7 +106,7 @@ export function Hero() {
       </motion.div>
       
       {/* Fade into next section */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0a0a0b] to-transparent z-10" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0a0a0b] to-transparent z-10 pointer-events-none" />
     </section>
   );
 }
