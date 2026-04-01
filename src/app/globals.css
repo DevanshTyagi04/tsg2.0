@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-onyx: #0a0a0b;
+  --color-onyx-light: #121214;
+  --color-onyx-muted: #1c1c1f;
+  
+  --color-gold: #D4AF37;
+  --color-gold-hover: #F2CA50;
+  
+  --color-corporate-blue: #0A2540;
+  --color-corporate-blue-light: #183C66;
+  
+  --color-teal: #008080;
+  --color-teal-glow: #00B1B1;
+}
+
+:root {
+  --background: #0a0a0b; 
+  --foreground: #f8fafc; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background-image: radial-gradient(circle at 50% 0%, rgba(0, 128, 128, 0.08) 0%, transparent 60%);
+}
+
+@utility glass {
+  background-color: rgba(28, 28, 31, 0.45);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+@utility squishy-btn {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+.squishy-btn:active {
+  transform: scale(0.92);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background); 
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1); 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37; 
+}
