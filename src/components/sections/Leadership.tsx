@@ -13,19 +13,19 @@ export function Leadership() {
     { 
       firstName: "NAVEEN KUMAR SHARMA", 
       role: "DIRECTOR", 
-      bio: "30+ years of leadership across logistics, finance, and operations in Zambia and Canada, driving execution and business scaling.",
+      bio: "Leads strategy and operations across India and Zambia, with global experience in education, management, and cross-border initiatives.",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop"
     },
     { 
       firstName: "HARPREET SINGH GILL", 
       role: "DIRECTOR", 
-      bio: "Extensive experience in logistics, customs, and supply chain management across Southern Africa, ensuring efficient on-ground operations.",
+      bio: "30+ years of leadership across logistics, finance, and operations in Zambia and Canada, driving execution and business scaling.",
       image: "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=800&auto=format&fit=crop"
     },
     { 
       firstName: "JAGDEEP SINGH GILL", 
       role: "DIRECTOR", 
-      bio: "Overseeing the tactical implementation of monolithic structural strategies.",
+      bio: "Extensive experience in logistics, customs, and supply chain management across Southern Africa, ensuring efficient on-ground operations.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop"
     }
   ];
