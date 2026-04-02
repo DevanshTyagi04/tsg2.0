@@ -4,6 +4,7 @@ import { About } from "@/components/sections/About";
 import { Operations } from "@/components/sections/Operations";
 import { Leadership } from "@/components/sections/Leadership";
 import { Strengths } from "@/components/sections/Strengths";
+import { Roadmap } from "@/components/sections/Roadmap";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/layout/Footer";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Operations />
         <Leadership />
         <Strengths />
+        <Roadmap />
         <Contact />
       </div>
       <Footer />
