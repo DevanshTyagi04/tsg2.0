@@ -43,20 +43,20 @@ export function Leadership() {
         </div>
 
         {/* Header Section */}
-        <div className="mb-24 relative z-10">
+        <div className="mb-16 md:mb-24 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-6xl md:text-8xl lg:text-[7.5rem] font-black text-[#F2CA50] leading-[0.9] tracking-tight uppercase">
+            <h2 className="text-5xl sm:text-6xl md:text-8xl lg:text-[7.5rem] font-black text-[#F2CA50] leading-[0.9] tracking-tight uppercase">
               Leadership <br />
               Architects
             </h2>
             
-            <div className="flex items-center gap-6 mt-12">
-              <div className="w-24 h-[1px] bg-slate-600"></div>
-              <span className="text-slate-400 text-xs md:text-sm tracking-[0.3em] font-bold uppercase">
+            <div className="flex items-center gap-4 md:gap-6 mt-8 md:mt-12">
+              <div className="w-16 md:w-24 h-[1px] bg-slate-600"></div>
+              <span className="text-slate-400 text-[10px] md:text-sm tracking-[0.2em] md:tracking-[0.3em] font-bold uppercase overflow-hidden text-ellipsis whitespace-nowrap md:whitespace-normal">
                 Structural Integrity & Vision
               </span>
             </div>
