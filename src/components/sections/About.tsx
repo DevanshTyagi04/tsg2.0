@@ -7,28 +7,28 @@ export function About() {
   const principles = [
     {
       title: "Uncompromising Quality",
-      desc: "Every rivet, every beam, every line of code is measured against global architectural standards.",
+      desc: "Delivering projects to global standards across infrastructure, healthcare, and technology.",
       icon: <CheckCircle2 size={24} />,
       color: "text-[#D4AF37]",
       bg: "bg-[#D4AF37]/10"
     },
     {
-      title: "Inclusion",
-      desc: "Empowering local workforces through technical knowledge transfer.",
+      title: "Local Empowerment",
+      desc: "Building local capability through knowledge transfer, training, and employment.",
       icon: <Globe2 size={24} />,
       color: "text-[#00B1B1]",
       bg: "bg-[#00B1B1]/10"
     },
     {
       title: "Integrity",
-      desc: "Transparent operations guided by rigorous ethical frameworks.",
+      desc: "Operating with transparency, accountability, and strong governance.",
       icon: <Scale size={24} />,
       color: "text-white",
       bg: "bg-white/10"
     },
     {
       title: "Sustainability",
-      desc: "Designing for the future with carbon-conscious materials and methods.",
+      desc: "Building responsibly with efficient, future-ready, and environmentally conscious practices.",
       icon: <Leaf size={24} />,
       color: "text-[#008080]",
       bg: "bg-[#008080]/10"
@@ -54,7 +54,7 @@ export function About() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter mb-8 leading-[1.1]"
           >
-            A synthesis of global engineering expertise and <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#F2CA50]">local strategic insight.</span>
+            Where Global Expertise Meets <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#F2CA50]">Local Insight.</span>
           </motion.h2>
           
           <div className="w-16 h-1 bg-[#00B1B1] mb-8 rounded-full" />
@@ -65,7 +65,7 @@ export function About() {
             viewport={{ once: true }}
             className="text-xl md:text-2xl text-slate-300 font-medium leading-relaxed mb-12"
           >
-            Redefining infrastructure across the Zambian landscape through the lens of architectural fusion. We don't just build structures; we architect ecosystems that foster economic vitality and human potential.
+            Transforming infrastructure in Zambia through integrated design and execution. We don’t just build projects — we create scalable ecosystems that drive economic growth.
           </motion.p>
         </div>
 
@@ -81,16 +81,16 @@ export function About() {
           >
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#D4AF37]/10 blur-3xl rounded-full group-hover:bg-[#D4AF37]/20 transition-colors duration-700" />
             <div className="relative z-10 md:w-2/3">
-              <span className="text-[#D4AF37] font-bold tracking-[0.2em] text-xs uppercase mb-4 block">The Anchor</span>
-              <h3 className="text-3xl md:text-4xl font-black text-white mb-4">Next Age Group</h3>
+              <span className="text-[#D4AF37] font-bold tracking-[0.2em] text-xs uppercase mb-4 block">Strategic Backbone</span>
+              <h3 className="text-3xl md:text-4xl font-black text-white mb-4">Backed by The Next Age Group</h3>
               <p className="text-slate-300 text-lg leading-relaxed">
-                As the overarching anchor, Next Age Group provides the financial structural integrity and visionary roadmap for TSG Inframedix. Our parent organization operates at the intersection of technology and physical space.
+                Backed by a 25+ year multi-sector conglomerate, TSG Inframedix benefits from strong financial backing, execution capability, and proven expertise across infrastructure and global trade.
               </p>
             </div>
           </motion.div>
 
           <div className="lg:col-span-3 mb-4">
-            <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight">Bilateral Synergy</h3>
+            <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight">India–Africa Strategic Synergy</h3>
           </div>
 
           {/* Indian Operations */}
@@ -100,13 +100,13 @@ export function About() {
             viewport={{ once: true }}
             className="lg:col-span-1 glass-blue p-8 md:p-10 rounded-3xl relative overflow-hidden"
           >
-            <span className="text-[#00B1B1] font-bold tracking-[0.2em] text-[10px] uppercase mb-4 block">Technical Engine</span>
+            <span className="text-[#00B1B1] font-bold tracking-[0.2em] text-[10px] uppercase mb-4 block">India: Technical & Execution Engine</span>
             <div className="w-12 h-12 rounded-2xl bg-[#0A2540] border border-[#00B1B1]/30 flex items-center justify-center text-[#00B1B1] mb-6 shadow-lg">
               <Building2 size={24} />
             </div>
-            <h4 className="text-2xl font-bold text-white mb-4">Indian Strategic Operations</h4>
+            <h4 className="text-2xl font-bold text-white mb-4">Indian Operations & Execution</h4>
             <p className="text-slate-400 font-medium leading-relaxed">
-              Bringing deep-tier engineering precision and scalable technical frameworks from the subcontinent to African soil.
+              Delivering engineering expertise, scalable systems, and project execution capabilities from India to Africa.
             </p>
           </motion.div>
 
@@ -118,13 +118,13 @@ export function About() {
             transition={{ delay: 0.2 }}
             className="lg:col-span-2 glass-teal p-8 md:p-10 rounded-3xl relative overflow-hidden"
           >
-            <span className="text-[#D4AF37] font-bold tracking-[0.2em] text-[10px] uppercase mb-4 block">Local Authority</span>
+            <span className="text-[#D4AF37] font-bold tracking-[0.2em] text-[10px] uppercase mb-4 block">Zambia: Local Market Leadership</span>
             <div className="w-12 h-12 rounded-2xl border border-[#D4AF37]/30 bg-[#0A2540] flex items-center justify-center text-[#D4AF37] mb-6 shadow-lg">
               <Globe2 size={24} />
             </div>
-            <h4 className="text-2xl font-bold text-white mb-4">Zambian Infrastructure Group</h4>
+            <h4 className="text-2xl font-bold text-white mb-4">Zambian Operations & Market Access</h4>
             <p className="text-slate-400 font-medium leading-relaxed md:w-3/4">
-              Expert navigation of regional regulatory landscapes and deep-rooted community-centric infrastructure development. A 50:50 Joint Venture focused on Zambian excellence.
+              Strong local presence with regulatory expertise, market access, and on-ground execution. A 50:50 joint venture built for sustainable growth in Zambia.
             </p>
           </motion.div>
         </div>

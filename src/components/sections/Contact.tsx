@@ -17,8 +17,8 @@ export function Contact() {
             viewport={{ once: true }}
             className="text-5xl md:text-7xl font-black text-white tracking-tighter uppercase leading-none"
           >
-            Initiate <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#008080] to-[#0A2540]">Dialogue.</span>
+            Get In 
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#008080] to-[#0A2540]"> Touch.</span>
           </motion.h2>
         </div>
 
@@ -32,18 +32,18 @@ export function Contact() {
             transition={{ duration: 0.8 }}
             className="flex flex-col justify-center"
           >
-            <h3 className="text-3xl font-bold text-white mb-8 tracking-tight">Global Operations Desk</h3>
+            <h3 className="text-3xl font-bold text-white mb-8 tracking-tight">Global Partnerships Desk</h3>
             <p className="text-slate-400 font-medium leading-relaxed mb-12 max-w-md">
-              Reach out to our executive team to explore joint ventures, operational expansions, or supply chain integrations across the African continent.
+              Connect with our team to explore joint ventures, operational expansion, and strategic partnerships across Africa.
             </p>
             
             <div className="flex flex-col gap-8">
               <div className="flex items-start gap-6 group">
-                <div className="w-16 h-16 rounded-2xl glass-teal flex items-center justify-center text-[#00B1B1] flex-shrink-0 group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 rounded-2xl glass flex items-center justify-center text-[#00B1B1] flex-shrink-0 group-hover:scale-110 transition-transform">
                   <Mail size={24} />
                 </div>
                 <div>
-                  <h4 className="text-slate-100 font-bold tracking-wide mb-1">Direct Outreach</h4>
+                  <h4 className="text-slate-100 font-bold tracking-wide mb-1">Email</h4>
                   <a href="mailto:exec@tsginframedix.com" className="text-[#00B1B1] font-medium hover:text-white transition-colors">exec@tsginframedix.com</a>
                 </div>
               </div>
@@ -53,18 +53,18 @@ export function Contact() {
                   <Phone size={24} />
                 </div>
                 <div>
-                  <h4 className="text-slate-100 font-bold tracking-wide mb-1">Command Centers</h4>
+                  <h4 className="text-slate-100 font-bold tracking-wide mb-1">Contact Numbers</h4>
                   <span className="text-slate-400 font-medium block">+91 (India HQ)</span>
                   <span className="text-slate-400 font-medium block">+260 (Zambia Ops)</span>
                 </div>
               </div>
 
               <div className="flex items-start gap-6 group">
-                <div className="w-16 h-16 rounded-2xl glass-blue flex items-center justify-center text-white flex-shrink-0 group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 rounded-2xl glass flex items-center justify-center text-white flex-shrink-0 group-hover:scale-110 transition-transform">
                   <MapPin size={24} />
                 </div>
                 <div>
-                  <h4 className="text-slate-100 font-bold tracking-wide mb-1">Corporate Registries</h4>
+                  <h4 className="text-slate-100 font-bold tracking-wide mb-1">Offices</h4>
                   <p className="text-slate-400 text-sm font-medium">New Delhi, India <br />Lusaka, Zambia</p>
                 </div>
               </div>
@@ -81,17 +81,17 @@ export function Contact() {
           >
             <form className="flex flex-col gap-6" onSubmit={(e) => e.preventDefault()}>
               <div className="flex flex-col gap-3">
-                <label htmlFor="name" className="text-xs font-bold uppercase tracking-[0.2em] text-[#00B1B1]">Entity / Name</label>
+                <label htmlFor="name" className="text-xs font-bold uppercase tracking-[0.2em] text-[#00B1B1]">Company / Organization</label>
                 <input 
                   type="text" 
                   id="name" 
                   className="bg-white/5 border-b-2 border-white/10 text-white px-0 py-3 focus:outline-none focus:border-[#D4AF37] transition-colors font-medium placeholder:text-white/20"
-                  placeholder="Organization or Full Name" 
+                  placeholder="Company or Organization" 
                 />
               </div>
               
               <div className="flex flex-col gap-3">
-                <label htmlFor="email" className="text-xs font-bold uppercase tracking-[0.2em] text-[#00B1B1]">Corporate Email</label>
+                <label htmlFor="email" className="text-xs font-bold uppercase tracking-[0.2em] text-[#00B1B1]">Work Email</label>
                 <input 
                   type="email" 
                   id="email" 
@@ -101,7 +101,7 @@ export function Contact() {
               </div>
 
               <div className="flex flex-col gap-3">
-                <label htmlFor="message" className="text-xs font-bold uppercase tracking-[0.2em] text-[#00B1B1]">Inquiry Details</label>
+                <label htmlFor="message" className="text-xs font-bold uppercase tracking-[0.2em] text-[#00B1B1]">Message</label>
                 <textarea 
                   id="message" 
                   rows={4}
@@ -114,7 +114,7 @@ export function Contact() {
                 type="submit"
                 className="w-full bg-gradient-to-r from-[#D4AF37] to-[#8a7220] hover:to-[#D4AF37] text-[#0a0a0b] font-black uppercase tracking-widest py-5 rounded-2xl mt-4 flex justify-center items-center gap-3 transition-colors shadow-[0_10px_30px_rgba(212,175,55,0.3)] squishy-btn"
               >
-                Transmit <ArrowRight size={20} />
+                Send Message <ArrowRight size={20} />
               </button>
             </form>
           </motion.div>

@@ -5,16 +5,16 @@ import { ActivitySquare, Microscope, Radiation, AlignEndHorizontal, Network, Bui
 
 export function Operations() {
   const metrics = [
-    { value: "0%", label: "Real Estate Capex", sub: "CAPITAL EFFICIENCY" },
-    { value: "100%", label: "Equipment Ownership", sub: "ASSET PORTFOLIO" },
-    { value: "24/7", label: "Service Uptime", sub: "OPERATIONAL STABILITY" }
+    { value: "0%", label: "Real Estate Investment", sub: "CAPITAL EFFICIENT MODEL" },
+    { value: "100%", label: "Equipment Ownership", sub: "CONTROLLED ASSET BASE" },
+    { value: "24/7", label: "Service Availability", sub: "RELIABLE OPERATIONS" }
   ];
 
   const services = [
-    { title: "MRI", desc: "3T MRI Tech for advanced neurological and musculoskeletal mapping.", icon: <ActivitySquare size={20} /> },
-    { title: "CT Scan", desc: "128-Slice Precision for rapid, high-resolution internal diagnostics.", icon: <AlignEndHorizontal size={20} /> },
-    { title: "X-Ray", desc: "Low-Dose Digital imaging for safe, rapid-turnaround skeletal screening.", icon: <Radiation size={20} /> },
-    { title: "Ultrasound", desc: "4D Imaging providing real-time physiological insight and clarity.", icon: <Microscope size={20} /> }
+    { title: "MRI", desc: "Advanced MRI technology for high-precision neurological and musculoskeletal imaging.", icon: <ActivitySquare size={20} /> },
+    { title: "CT Scan", desc: "High-resolution CT imaging for fast and accurate internal diagnostics.", icon: <AlignEndHorizontal size={20} /> },
+    { title: "X-Ray", desc: "Low-dose digital X-ray for safe, fast, and reliable skeletal imaging.", icon: <Radiation size={20} /> },
+    { title: "Ultrasound", desc: "Real-time ultrasound imaging for accurate and efficient diagnostics.", icon: <Microscope size={20} /> }
   ];
 
   return (
@@ -36,10 +36,10 @@ export function Operations() {
           <span className="text-[#00B1B1] font-bold tracking-[0.2em] text-xs uppercase mb-4 block">Core Operations</span>
           <h2 className="text-5xl md:text-7xl lg:text-[6rem] font-black text-white tracking-tighter leading-[0.9] mb-8 uppercase">
             Asset-Light <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#0A2540]">Monolith.</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#0A2540]">Operating Model.</span>
           </h2>
           <p className="text-xl md:text-2xl text-slate-300 font-medium leading-relaxed max-w-2xl">
-            Pioneering an asset-light operating model to deliver world-class diagnostic accuracy across the Sub-Saharan African healthcare landscape.
+            Delivering world-class diagnostic services through a capital-efficient, asset-light model across Sub-Saharan Africa.
           </p>
         </motion.div>
 
@@ -75,8 +75,8 @@ export function Operations() {
           >
             <div className="flex justify-between items-start mb-10">
               <div>
-                <h3 className="text-3xl font-black text-white mb-2">Medical Services.</h3>
-                <span className="text-[#D4AF37] font-bold tracking-[0.2em] text-[10px] uppercase">Tier 1 Diagnostics</span>
+                <h3 className="text-3xl font-black text-white mb-2">Diagnostic Services.</h3>
+                <span className="text-[#D4AF37] font-bold tracking-[0.2em] text-[10px] uppercase">Advanced Diagnostic Services</span>
               </div>
             </div>
 
@@ -104,24 +104,24 @@ export function Operations() {
             className="lg:col-span-4 glass-blue p-10 rounded-[2.5rem] flex flex-col justify-between"
           >
             <div className="mb-6">
-              <h3 className="text-2xl font-black text-white mb-4">Strategic Footprint.</h3>
+              <h3 className="text-2xl font-black text-white mb-4">Operational Footprint.</h3>
               <p className="text-sm text-slate-300 leading-relaxed font-medium">
-                Our expansion strategy leverages existing healthcare hubs, integrating high-performance diagnostic centers directly into high-traffic medical clusters.
+                Our expansion strategy integrates diagnostic centres within established healthcare hubs to ensure strong patient flow and operational efficiency.
               </p>
             </div>
 
             <div className="space-y-4">
               <div className="flex justify-between items-center border-b border-white/10 pb-3">
-                <span className="text-white font-bold">Kalundu Hub</span>
+                <span className="text-white font-bold">Kalundu Centre</span>
                 <span className="text-xs font-bold px-3 py-1 bg-[#00B1B1]/20 text-[#00B1B1] rounded-full uppercase tracking-widest">Operational</span>
               </div>
               <div className="flex justify-between items-center border-b border-white/10 pb-3">
-                <span className="text-white font-bold">Mazabuka Hub</span>
+                <span className="text-white font-bold">Mazabuka Centre</span>
                 <span className="text-xs font-bold px-3 py-1 bg-[#00B1B1]/20 text-[#00B1B1] rounded-full uppercase tracking-widest">Operational</span>
               </div>
               <div className="flex justify-between items-center pb-2">
-                <span className="text-white font-bold">Ibex Hill Node</span>
-                <span className="text-xs font-bold px-3 py-1 bg-[#D4AF37]/20 text-[#D4AF37] rounded-full uppercase tracking-widest">2027</span>
+                <span className="text-white font-bold">Ibex Hill Centre</span>
+                <span className="text-xs font-bold px-3 py-1 bg-[#D4AF37]/20 text-[#D4AF37] rounded-full uppercase tracking-widest">Launching-2027</span>
               </div>
             </div>
           </motion.div>
@@ -136,7 +136,7 @@ export function Operations() {
             <div className="w-14 h-14 rounded-full bg-[#008080]/20 flex items-center justify-center text-[#D4AF37] mb-6">
               <Network size={28} />
             </div>
-            <h4 className="text-xl font-bold text-white mb-2">Network Connectivity</h4>
+            <h4 className="text-xl font-bold text-white mb-2">Integrated Diagnostic Network</h4>
             <p className="text-sm text-slate-300 leading-relaxed font-medium">
               Direct data-link between Kalundu Hub and regional spoke centers for instant radiologist review.
             </p>
@@ -158,24 +158,24 @@ export function Operations() {
                   <div className="p-3 glass rounded-xl text-[#00B1B1]">
                     <Building size={24} />
                   </div>
-                  <h3 className="text-2xl font-black text-white">Victoria Hospital Partnership</h3>
+                  <h3 className="text-2xl font-black text-white">Partnership with Victoria Hospital</h3>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed font-medium">
-                  Our shared-infrastructure model at Victoria Hospital serves as the primary diagnostic engine. By integrating within established medical excellence, we eliminate the friction of real estate development and focus 100% on precision technology.
+                  Our shared-infrastructure model with Victoria Hospital enables rapid deployment of diagnostic services without real estate investment, allowing full focus on technology, accuracy, and patient care.
                 </p>
               </div>
 
               <div className="lg:w-1/2 space-y-4 w-full">
                 <div className="glass p-4 rounded-xl flex items-center justify-between border-white/5">
-                  <span className="text-slate-100 font-bold">Instant Patient Pipeline</span>
+                  <span className="text-slate-100 font-bold">Immediate Patient Access</span>
                   <div className="w-2 h-2 rounded-full bg-[#00B1B1]" />
                 </div>
                 <div className="glass p-4 rounded-xl flex items-center justify-between border-white/5">
-                  <span className="text-slate-100 font-bold">Shared Utility Framework</span>
+                  <span className="text-slate-100 font-bold">Shared Infrastructure Model</span>
                   <div className="w-2 h-2 rounded-full bg-[#00B1B1]" />
                 </div>
                 <div className="glass p-4 rounded-xl flex items-center justify-between border-white/5">
-                  <span className="text-slate-100 font-bold">Rapid Scaling Potential</span>
+                  <span className="text-slate-100 font-bold">Scalable Expansion Model</span>
                   <div className="w-2 h-2 rounded-full bg-[#D4AF37]" />
                 </div>
               </div>

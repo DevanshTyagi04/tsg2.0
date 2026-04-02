@@ -5,26 +5,26 @@ import { motion } from "framer-motion";
 export function Leadership() {
   const leaders = [
     { 
-      firstName: "NEERAJ", 
-      role: "CHIEF ARCHITECT", 
-      bio: "Pioneering the synthesis of biological infrastructure and computational excellence.",
+      firstName: "NEERAJ KUMAR TYAGI", 
+      role: "MANAGING DIRECTOR", 
+      bio: "25+ years of experience in infrastructure, urban planning, and international projects across India and Africa. Former UNDP consultant and ex-VP Planning at GIFT City.",
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
     },
     { 
-      firstName: "NAVEEN", 
-      role: "SYSTEMS DIRECTOR", 
-      bio: "Designing neural frameworks for global scalability within the Inframedix ecosystem.",
+      firstName: "NAVEEN KUMAR SHARMA", 
+      role: "DIRECTOR", 
+      bio: "30+ years of leadership across logistics, finance, and operations in Zambia and Canada, driving execution and business scaling.",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop"
     },
     { 
-      firstName: "HARPREET", 
-      role: "PRECISION LEAD", 
-      bio: "Executing the clinical precision required for architectural medical breakthroughs.",
+      firstName: "HARPREET SINGH GILL", 
+      role: "DIRECTOR", 
+      bio: "Extensive experience in logistics, customs, and supply chain management across Southern Africa, ensuring efficient on-ground operations.",
       image: "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=800&auto=format&fit=crop"
     },
     { 
-      firstName: "JAGDEEP", 
-      role: "LABS OPERATOR", 
+      firstName: "JAGDEEP SINGH GILL", 
+      role: "DIRECTOR", 
       bio: "Overseeing the tactical implementation of monolithic structural strategies.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop"
     }
@@ -50,14 +50,13 @@ export function Leadership() {
             viewport={{ once: true }}
           >
             <h2 className="text-5xl sm:text-6xl md:text-8xl lg:text-[7.5rem] font-black text-[#F2CA50] leading-[0.9] tracking-tight uppercase">
-              Leadership <br />
-              Architects
+              Leadership Team
             </h2>
             
             <div className="flex items-center gap-4 md:gap-6 mt-8 md:mt-12">
               <div className="w-16 md:w-24 h-[1px] bg-slate-600"></div>
               <span className="text-slate-400 text-[10px] md:text-sm tracking-[0.2em] md:tracking-[0.3em] font-bold uppercase overflow-hidden text-ellipsis whitespace-nowrap md:whitespace-normal">
-                Structural Integrity & Vision
+                Driving Strategy, Execution & Growth
               </span>
             </div>
           </motion.div>

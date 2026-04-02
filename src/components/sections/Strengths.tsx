@@ -80,7 +80,7 @@ export function Strengths() {
 
   return (
     <>
-      <section id="diversification" ref={containerRef} className="relative z-20 h-[400vh] bg-[#0a0a0b] border-t border-white/5">
+      <section id="roadmap" ref={containerRef} className="relative z-20 h-[400vh] bg-[#0a0a0b] border-t border-white/5">
         
         {/* Switched to responsive flex-col justify-center. Used gap safely to prevent overlap. */}
         <div className="sticky top-0 h-screen w-full overflow-hidden flex flex-col justify-center gap-6 lg:gap-10 pt-16">
@@ -113,7 +113,6 @@ export function Strengths() {
           >
             {/* The Nucleus */}
             <div className="shrink-0 aspect-square w-[35vh] h-[35vh] min-w-[220px] min-h-[220px] max-w-[320px] max-h-[320px] rounded-full bg-gradient-to-br from-[#D4AF37] to-[#8a7220] flex flex-col items-center justify-center border-[6px] md:border-[8px] border-[#0a0a0b] shadow-[0_0_80px_rgba(212,175,55,0.2)] md:mr-12 hover:scale-105 transition-transform duration-500 transform-gpu">
-              <span className="text-[9px] md:text-[10px] font-bold tracking-[0.4em] text-black/60 uppercase block mb-3">The Nucleus</span>
               <h3 className="text-2xl md:text-3xl font-black text-black text-center tracking-tighter leading-none px-6 md:px-8">
                 TSG <br />INFRAMEDIX<br />LTD
               </h3>
